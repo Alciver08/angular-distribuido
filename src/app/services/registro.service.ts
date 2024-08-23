@@ -4,7 +4,6 @@ import { Observable } from 'rxjs';
 import { environment } from '../../enviroments/environments';
 
 export interface Registro {
-  id: number;
   tipo_identificacion: string;
   numero_identificacion: string;
   nombre1: string;
